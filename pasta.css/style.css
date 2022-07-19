@@ -1,0 +1,97 @@
+
+body{
+    width: 1200px;
+    height: 1200px;
+    background-color: black;
+   
+}
+header{display: flex;
+    align-items: center;
+    width: 1000px;
+    height:70px;  
+}
+
+
+.portifolio{display:flex;
+    align-self: flex-end;
+    align-items: center;
+    margin: 0 0 0 0px;
+    height:80px;
+    font-size: 35px;
+     color: white;
+}
+.lio{display:flex;
+    align-items: center;
+    padding: 0 0 0 0px;
+    height:80px;
+    width: 140px;
+    color: rgba(165, 11, 11, 0.774);
+    font-size: 35px;
+}
+.list-items{ display:flex;
+    color: white;
+  font-size: 18px;  
+  width:800px;
+  justify-content: space-around;
+  list-style-type: none;
+} 
+section{display: flex;
+    align-items: flex-start;
+   flex-direction: column;
+    width: 1300px;
+    height:300px;
+    list-style-type: none;
+    justify-content: flex-end;
+    
+}
+
+.ola-meu-nome{
+    color: aliceblue;
+    font-size: 30px;
+}
+.paulo-roberto-da-silva{
+    color: red;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sou-estudante-de-desenvolvimento-web{
+    color: white;
+    font-size: 30px;   
+}
+aside{display: flex;
+  align-items: center;
+    width: 500px;
+    height: 120px;
+}
+.botao-email{display: flex;
+background-color: white;
+max-width: 100%;
+justify-content:  space-between; 
+width: 500px;
+height: 50px;
+box-sizing: border-box;
+border-radius: 30px;
+align-items: center;
+}
+.enviar-meu-email{display: flex;
+    border-radius: 30px;
+    padding: 5px;
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(167, 22, 22);
+    height: 40px;
+    align-items: center;
+    border: 0px solid rgb(58, 19, 19)  
+}
+.clique-aqui{display: flex;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+
+}
